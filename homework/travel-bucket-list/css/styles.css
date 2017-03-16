@@ -1,0 +1,33 @@
+body {
+	font-family: helvetica;
+}
+.container{
+	width:960px;
+	background: rgb(243,243,243);
+	margin: 0 auto;
+	padding: 25px;
+}
+h1 {
+	text-align: center;
+	color: white;
+	padding: 15px 0;
+	background-color: teal;
+}
+a{
+	text-decoration: none;
+	margin: 0 20px;
+}
+div{
+	text-align: center;
+	padding: 15px 0;
+	margin: 15px 0;
+}
+#maui{
+	background-color:lightblue;
+}
+#reyjkavik{
+	background-color:lightgreen;
+}
+#aspen{
+	background-color:lightblue;
+}
