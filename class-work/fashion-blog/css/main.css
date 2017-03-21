@@ -1,0 +1,59 @@
+body{
+	font-family: Lato;
+	color: #444444;
+	line-height: 1.5;
+}
+
+.container {
+	width: 720px;
+	padding: 54px 0 0 54px;
+}
+
+h1 {
+	color: #dd0000;
+}
+
+nav a{
+	color: #dddddd;
+	margin-right: 15px;
+}
+
+footer a{
+	color: #dd0000;
+	border-right: solid 1px #cccccc;
+	margin-right: 15px;
+	padding-right: 15px;
+}
+
+header{
+	margin-bottom: 50px;
+}
+
+.date{
+	color: #cccccc;
+
+}
+
+.title {
+	color: black;
+
+}
+
+article{
+	border-bottom: solid 1px #cccccc;
+	margin-bottom: 50px;
+}
+
+img{
+	max-width: 100%;
+}
+
+.continue{
+	color: #dd0000;
+	text-align: right;
+	font-weight: bold;
+}
+
+.copyright{
+	color: #bbbbbb;
+}
