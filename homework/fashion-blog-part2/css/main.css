@@ -68,6 +68,10 @@ img{
 	max-width: 100%;
 }
 
+li{
+	color: #dd0000;
+}
+
 .continue{
 	color: #dd0000;
 	text-align: right;
