@@ -19,7 +19,10 @@ h2 {
 	margin:0;
 	text-align:center;
 }
-
+h3 {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+}
 nav{
 	padding-top: 10px;
 	margin:0;
@@ -28,17 +31,18 @@ nav{
 nav a {
 	color: white;
 	text-decoration: none;
-	padding-left: 3px;
+	padding-left: 8px;
 }
 
 .tagline {
 	font-family: 'Merriweather';
 	background: #C6C6C6;
+	padding: 20px 0;
 }
 
 .floatright {
 	float:right;
-	width:320px;
+	width:400px;
 }
 
 .clear {
@@ -48,6 +52,21 @@ nav a {
 .floatleft {
 	float:left;
 	width:320px;
+}
+
+.floatleftfooter {
+	float:left;
+	width: 300px;
+	padding: 0 8px;
+
+}
+
+.floatleftmiddlecolumn {
+	border-left: solid 1px gray;
+	border-right: solid 1px gray;
+	float:left;
+	width: 300px;
+	padding: 0 8px;
 }
 
 .container {
@@ -71,11 +90,25 @@ aside{
 }
 
 aside p{
-	width: 350px;
+	width: 400px;
 }
 
 .button{
 	font-family: "Oswald";
 	background: yellow;
 	text-align: center;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+
+.graybutton{
+	font-family: "Oswald";
+	background: #C6C6C6;
+	text-align: center;
+	border-radius: 5px;
+	padding: 5px 0;
+}
+
+footer{
+	margin-top: 20px;
 }
