@@ -1,0 +1,7 @@
+Little Nooks NYC
+
+A food blog focusing on hidden gems around the city. This blog will include intimate and cozy cafes/wine bars/restaurants in different areas of the city. I will start with Manhattan and Queens for the final project and I hope to add other boroughs for myself after this class.
+
+I have pictures to be able to have a slide show on the landing page. A nav bar at the top would redirect to various pages. Each page with different posts. The Manhattan and Queens tabs will also have sub tabs with different areas of the borough so that viewers can narrow down by area.
+
+Not sure if the navigation should be by area or by type of location (cafe/bar/food)?
