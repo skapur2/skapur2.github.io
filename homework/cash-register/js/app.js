@@ -19,10 +19,10 @@ $('#entry').submit(function (event){
 	event.preventDefault();
 	var entry = $('#newEntry').val();
 	entry = parseFloat(entry);
-if(entry == int
+
 	$('#entries').append('<tr> <td> </td> <td>' + entry + '</td> </tr>');
 	total = total + entry;
-	$('#total').text(total);
+	$('#total').text('$' + total);
 	$('#newEntry').val('');
 
 	})
