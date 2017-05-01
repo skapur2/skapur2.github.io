@@ -1,0 +1,70 @@
+body{
+	font-family: Lato;
+	line-height: 1.5;
+}
+h1 {
+	color:black;
+	font-size: 30px;
+	text-align: center;
+}
+.container {
+	width: 100%;
+}
+
+nav {
+	
+	background: black;
+    text-transform: none;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    margin: 0;
+  	text-align: right;
+  	
+}
+
+nav a {
+	color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+nav img {
+	float:left;
+}	
+
+.post-title {
+	background: black;
+	color:white;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+figure {
+
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+	width: 40%;
+	height:400px;
+	margin: 20px;
+
+
+
+}
+.hover img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover img:hover {
+	opacity: .5;
+}
+
+
+
+figure img {
+	width: 100%;
+
+}
+
