@@ -3,40 +3,65 @@
 <head>
 	<title>Little Nooks NYC</title>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,700,300italic,700italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<div class="container">
 		<header>
+		<a href="index.html"><img src="images/littlenookstext.png"></a>
 			<nav>
-			<a href="index.html"><img src="images/littlenookstext.png"></a>
 				<a href="cafes.html">CAFES</a>
 				<a href="drinks.html">DRINKS</a>
 				<a href="food.html">FOOD</a>
 				<a href="about.html">ABOUT</a>
+				<img id="burger" src="images/threelines.png" alt="">
 			</nav>
 		</header>
-		<!--<h1 class = "post-title"> Perk </h1>-->
-		<div class = "hover">
-		<figure>
-		<img src="images/perk1.jpg">
-		</figure>
-		</div>
-		<div class="hover">
-		<figure>
-		<img src="images/bibble.jpg">
-		</figure>
-		</div>
-			<div class="hover">
-		<figure>
-		<img src="images/cafe23.jpg">
-		</figure>
-		</div>
-			<div class="hover">
-		<figure>
-		<img src="images/bluestone.jpg">
-		</figure>
-		</div>
+<div class = "grid-block-container">
+	<div class="grid-block fade">
+		<div class="caption">
+            <h3>PERK KAFE</h3>
+            <h4>162 E 37th St
+New York, NY 10016</h4>
+            	<p>Small business with a big personality. Perk Kafe is an awesome cafe with a lot of character, delivering perfect coffee and free wifi in the process.</p>
+            		<p><a href="#" class="learn-more">Learn more</a></p>
+        </div>
+    	<img class = "cover" src="images/perk1.jpg" />
+    </div>
+
+    <div class="grid-block fade">
+		<div class="caption">
+            <h3>BIBBLE & SIP</h3>
+            <h4>253 W 51st St New York, NY 10019</h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            		<p><a href="#" class="learn-more">Learn more</a></p>
+        </div>
+    	<img class="cover" src="images/bibble.jpg" />
+    </div>
+
+    <div class="grid-block fade">
+		<div class="caption">
+            <h3>CAFE 23</h3>
+            <h4>22-80 Steinway St Astoria, NY 11105</h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            		<p><a href="#" class="learn-more">Learn more</a></p>
+        </div>
+    	<img class="cover" src="images/cafe23.jpg" />
+    </div>
+
+    <div class="grid-block fade">
+		<div class="caption">
+            <h3>BLUESTONE LANE</h3>
+            <h4>55 Greenwich Ave, New York, NY 10014</h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            		<p><a href="#" class="learn-more">Learn more</a></p>
+        </div>
+    	<img class="cover" src="images/bluestone.jpg" />
+    </div>
+	
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/final.js"></script>
 </body>
+
 </html>

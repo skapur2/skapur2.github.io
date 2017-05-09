@@ -5,10 +5,6 @@ $(document).ready(function () {
 	})
 
 	$('#burger').click(function() {
-	$('#mobile-nav').slideToggle();
+	$('.mobile-nav').slideToggle();
 });
 	})
-
-// 1.click event on burger
-// 2.slidetoggle on mobile-nav
-
