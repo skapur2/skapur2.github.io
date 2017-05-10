@@ -185,7 +185,15 @@ footer {
   display: flex;
   justify-content: flex-end;
 }
+.mobile-nav {
+	display:none;
+}
 
+.mobile-nav a{
+	display: block;
+	text-align: center;
+	padding:5px;
+}
 footer img {
 	margin: 0 0 0 15px;
 }
@@ -221,6 +229,8 @@ aside a:hover {
 	}
 	#burger {
 	display:block;
+	width:20px;
+	height:20px;
 	}
 
 	header img {
@@ -234,6 +244,9 @@ aside a:hover {
 	.imgfade {
 	width: 400px;
 	height: 400px;
+	}
+	footer {
+		display:none;
 	}
 
 }

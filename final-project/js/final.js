@@ -12,7 +12,14 @@ $(document).ready(function() {
 		appendItem (newComment);
 		$('#item').val(''); 
 
-	})
+	});
+	$('#burger').click(function() {
+	$('.mobile-nav').slideToggle();
+	});
+
+	window.sr = ScrollReveal();
+	sr.reveal('.blog-image',{ duration: 1000 });
+
 });
 function appendItem (newComment) {
 	$('#list').append('<p>' + newComment + '</p>' );
