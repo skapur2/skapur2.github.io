@@ -11,16 +11,31 @@ $(document).ready(function() {
 });
 
 $(window).on("load", function() {
-  // $( '#img1' ).fadeIn( 3000, function() {
-  //   $( '#img2' ).fadeIn( 100 );
+  $( '#img1' ).fadeIn( 50, function() {
+    $( '#img2' ).fadeIn( 75, function() { 
+    $( '#img3' ).fadeIn( 100, function() { 
+    $( '#img4' ).fadeIn( 125, function() { 
+    $( '#img5' ).fadeIn( 150 );
+  });
+    });
+    });
+    });
+
+  // $( '#img3' ).fadeIn( 1100, function() {
+  //   $( '#img4' ).fadeIn( 1400 );
   // });
-$('.intro').fadeIn(200);
-$('#img1').fadeIn(500);
-$('#img2').fadeIn(800);
-$('#img3').fadeIn(1100);
-$('#img4').fadeIn(1400); 
-$('#img5').fadeIn(1700);
-});
+
+  // $( '#img5' ).fadeIn( 500, function() {
+  //   $( '#img2' ).fadeIn( 800 );
+  // });
+  });
+// $('.intro').fadeIn(200);
+// $('#img1').fadeIn(500);
+// $('#img2').fadeIn(800);
+// $('#img3').fadeIn(1100);
+// $('#img4').fadeIn(1400); 
+// $('#img5').fadeIn(1700);
+
 
 
     // Animation complete
