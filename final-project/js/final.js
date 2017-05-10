@@ -7,8 +7,16 @@ $(document).ready(function() {
 			$(this).find('.caption').fadeOut(250);
 		}
 	);
+		$('#clickme').click(function (){
+		var newComment = $('#comment').val();
+		appendItem (newComment);
+		$('#item').val(''); 
 
+	})
 });
+function appendItem (newComment) {
+	$('#list').append('<p>' + newComment + '</p>' );
+}
 
 $(window).on("load", function() {
    $( '#img1' ).fadeIn( 50, function() {
