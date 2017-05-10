@@ -15,19 +15,13 @@ $(window).on("load", function() {
     $( '#img2' ).fadeIn( 75, function() { 
     $( '#img3' ).fadeIn( 100, function() { 
     $( '#img4' ).fadeIn( 125, function() { 
-    $( '#img5' ).fadeIn( 150 );
-  });
+    $( '#img5' ).fadeIn( 150 ) 
+    });
     });
     });
     });
 
-  // $( '#img3' ).fadeIn( 1100, function() {
-  //   $( '#img4' ).fadeIn( 1400 );
-  // });
 
-  // $( '#img5' ).fadeIn( 500, function() {
-  //   $( '#img2' ).fadeIn( 800 );
-  // });
   });
 // $('.intro').fadeIn(200);
 // $('#img1').fadeIn(500);
