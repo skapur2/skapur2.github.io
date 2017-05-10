@@ -11,7 +11,7 @@ $(document).ready(function() {
 });
 
 $(window).on("load", function() {
-  $( '#img1' ).fadeIn( 50, function() {
+   $( '#img1' ).fadeIn( 50, function() {
     $( '#img2' ).fadeIn( 75, function() { 
     $( '#img3' ).fadeIn( 100, function() { 
     $( '#img4' ).fadeIn( 125, function() { 
@@ -20,9 +20,9 @@ $(window).on("load", function() {
     });
     });
     });
+   });
 
-
-  });
+  
 // $('.intro').fadeIn(200);
 // $('#img1').fadeIn(500);
 // $('#img2').fadeIn(800);
