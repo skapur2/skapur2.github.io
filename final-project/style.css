@@ -26,6 +26,17 @@ nav {
   	
 }
 
+.intro h2, h3 {
+	margin:0;
+	padding:0;
+
+}
+
+.cursive {
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 24px;
+}
+
 nav a {
 	color: white;
     text-decoration: none;
@@ -39,14 +50,19 @@ header {
 	margin-bottom:400px;*/
 }
 
-header img {
+header .logo {
 	float:left;
-	margin-top:20px;
+	font-family: 'La Belle Aurore', cursive;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	margin-top:10px;
 }
 
 .homebanner {
 	width:100%;
 	display:flex;
+	margin-top:10px;
 }
 
 .imgfade {
@@ -104,6 +120,7 @@ header img {
 	margin-left: 20px;
 	padding: 0px;
     margin: 0 0 20px 20px;
+    font-family: 'La Belle Aurore', cursive;
 	
 }
 .caption p {

@@ -14,6 +14,7 @@ $(window).on("load", function() {
   // $( '#img1' ).fadeIn( 3000, function() {
   //   $( '#img2' ).fadeIn( 100 );
   // });
+$('.intro').fadeIn(200);
 $('#img1').fadeIn(500);
 $('#img2').fadeIn(800);
 $('#img3').fadeIn(1100);
